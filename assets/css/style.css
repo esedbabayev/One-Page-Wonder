@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-image: url(../imgs/03.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 97vh;
+}
+.nav-bar{
+    background: linear-gradient(rgba(0,0,0,0.7) , rgba(0,0,0,0.7)) ;
+    width: 100%;
+    height: 10vh;
+    opacity: 1;
+    padding: 3% 0 ;
+    position: fixed;
+}
+.h-3{
+    padding-left: 9%;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+.a{
+    color: whitesmoke; !important;
+    text-decoration: none;
+    float:left;
+   
+}
+.ul li{
+    float: right;
+    display:inline;
+    text-decoration: none;
+    padding: 1%;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+   
+}
+ul{
+    padding-right: 8%;
+   
+}
+.ul li:hover{
+    background-color: #e00654;
+    transition: 0.5s;
+    border: none;
+}
+.title{
+    text-align: center;
+    color: whitesmoke;
+    padding-top: 14%;
+    font-size: 285%;
+    font-family: "Catamaran", "Segoe UI","Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+}
+.btn:hover{
+    transition: 0.3s;
+    background-color:#900435;
+}
+.btn{
+    width: 16%;
+    height: 10vh;
+    margin-top: 3%;
+    border-radius: 70px;
+    border: none;
+    background-color: #e00654;
+    color: whitesmoke;
+    cursor: pointer;
+    font-family:  "Catamaran","Segoe UI","Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 50%;
+    font-weight: 600;
+  
+    
+}
+/* #scroll{
+    scroll-behavior: auto;
+} */
+
+
+/* main */
+
+/* sec-1 */
+
+.sec-1{
+    width: 100%;
+    height: 70vh;
+    background-color:white;
+    padding-bottom: 15%;
+    display: flex;
+    justify-content: space-between;
+}
+.div-1{
+    width: 33%;
+    height: 50vh;
+    margin-left: 12%;
+    margin-top: 11%;
+}
+.for-those{
+    font-size: 400%;
+}
+.img-1{
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border: none;
+    padding: 0px 10px;
+    margin-top: 6%;
+    margin-right: 7%;
+}
+
+/* sec-2 */
+
+.sec-2{
+    width: 100%;
+    height: 70vh;
+}
+.div-2{
+    width: 33%;
+    height: 50vh;
+    float: right;
+    margin-top: 20%;
+    margin-right: 7%;
+
+}
+.salute{
+    font-size: 400%;
+}
+.img-2{
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border: none;
+    margin-left: 9%;
+    margin-top: 14%;
+}
+
+/* footer */
+
+.footer h6{
+    width: 100%;
+    height: 15vh;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 17%;
+    padding-top: 45px;
+
+}
